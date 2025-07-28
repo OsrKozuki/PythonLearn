@@ -1,8 +1,9 @@
 from random import sample
 
-
+# Nested List
 def cards_sample(suits, ranks):
     deck = [str(x)+'-'+y for x in ranks for y in suits]
+            #Expression   #First Bucle   #Second Bucle
     return sample(deck, 4)
 
 
